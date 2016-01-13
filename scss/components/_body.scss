@@ -1,0 +1,38 @@
+.body-heading{
+	h2, h4{
+		font-weight:200;
+	}
+
+	h4{
+		font-size:16px;
+		line-height:23px;
+	}
+}
+
+.body-listing{
+	a{
+		display:block;
+		text-decoration:none;
+		color:$darkgrey;
+		
+		span.icon{
+			background:url("../img/program-example.png") no-repeat;
+			background-size:cover;
+			display:block;
+			height:240px;
+		}
+
+		.title{
+			padding-top:5px;
+			display:block;
+			font-weight:bold;
+		}
+
+		.subtitle{
+			font-size:12px;
+			font-style:italic;
+			color:$grey;
+		}
+
+	}
+}
